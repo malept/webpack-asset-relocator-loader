@@ -79,7 +79,7 @@ module.exports =
 /******/
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
-/******/ 	if (typeof __webpack_require__ !== 'undefined') __webpack_require__.ab = __dirname + "/";
+/******/ 	if (typeof __webpack_require__ !== 'undefined') __webpack_require__.ab = (typeof ASSET_RELOCATOR_BASE_DIR === 'undefined' ? __dirname : ASSET_RELOCATOR_BASE_DIR) + "/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
